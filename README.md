@@ -1,4 +1,4 @@
-# Neko Protocol Landing Page
+<img width="2940" height="770" alt="banner" src="https://github.com/user-attachments/assets/b094f921-6242-4ecd-8034-cb4e9d0ce267" />
 
 Welcome to the Neko Protocol Landing Page repository! This project serves as the front-facing interface for Neko Protocol, providing users with an overview of the platform and access to its decentralized application (dApp).
 
