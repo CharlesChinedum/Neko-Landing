@@ -135,7 +135,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* CTA Section - Bold & Eye-catching */}
-      <section className="relative py-32 overflow-hidden rounded-4xl">
+      <section id="cta" className="relative py-32 overflow-hidden rounded-4xl">
         {/* Animated gradient background */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#081F5C] via-[#334EAC] to-[#081F5C]" />
 
@@ -150,7 +150,6 @@ const Home: React.FC = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(0,0,0,0.2)_100%)] rounded-2xl" />
 
         <div className="relative mx-auto max-w-7xl px-6 text-center rounded-xl">
-
           <h2 className="text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
             Ready to Transform
             <br />
