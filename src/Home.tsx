@@ -8,6 +8,7 @@ import {
   DollarSign,
 } from "lucide-react";
 import { HeroScrollDemo } from "./HeroScrollDemo";
+import ProblemStatement from "./ProblemStatement";
 import Navbar from "./Navbar";
 
 const Home: React.FC = () => {
@@ -128,6 +129,9 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Problem Statement Section */}
+      <ProblemStatement />
 
       {/* HeroScrollDemo Section */}
       <section className="relative mx-auto max-w-7xl px-6 overflow-hidden">
