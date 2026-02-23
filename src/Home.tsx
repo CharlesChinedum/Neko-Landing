@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { HeroScrollDemo } from "./HeroScrollDemo";
 import Navbar from "./Navbar";
+import { RwaFeatures } from "./RwaFeatures";
 
 const Home: React.FC = () => {
   return (
@@ -128,6 +129,9 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* RWA Features Section */}
+      <RwaFeatures />
 
       {/* HeroScrollDemo Section */}
       <section className="relative mx-auto max-w-7xl px-6 overflow-hidden">
