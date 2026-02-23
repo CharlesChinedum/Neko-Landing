@@ -14,7 +14,7 @@ import FAQ from "./FAQ";
 const Home: React.FC = () => {
   return (
     <div
-      className="w-full"
+      className="w-full overflow-hidden"
       style={{
         fontFamily:
           "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
